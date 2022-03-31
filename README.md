@@ -3,15 +3,15 @@
 
 <br>
 <p>Pesquisando desenvolvedores por linguagem 'Javascript'</p>
-<img align-items="center" alt="Pesquisando desenvolvedores por linguagem" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_01.png/">
+<img alt="Pesquisando desenvolvedores por linguagem" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_01.png/">
 <p>Pesquisando desenvolvedores que possuem a linguagem 'Javascript' e 'Java'</p>
-<img align-items="center" alt="Pesquisando desenvolvedores que possuem a linguagem Javascrip e Java" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_02.png/">
+<img alt="Pesquisando desenvolvedores que possuem a linguagem Javascrip e Java" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_02.png/">
 <p>Pesquisando desenvolvedores por nome</p>
-<img align-items="center" alt="Pesquisando desenvolvedores por nome" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_03.png/">
+<img alt="Pesquisando desenvolvedores por nome" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_03.png/">
 <p>Abrindo 'modal' do desenvolvedor com suas informações, ao clicar nele</p>
-<img align-items="center" alt="Abrindo modal do desenvolvedor com suas informações, ao clicar nele" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_04.png/">
+<img alt="Abrindo modal do desenvolvedor com suas informações, ao clicar nele" width="500" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_04.png/">
 <p>Imagem do site utilizando dispositivo mobile</p>
-<img align-items="center" alt="Imagem do site utilizando dispositivo mobile" width="300" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_05.png/">
+<img alt="Imagem do site utilizando dispositivo mobile" width="300" src="https://github.com/davirochw/pesquisa-dev/blob/main/src/assets/img/devs_05.png/">
 
 ## Build Setup
 ``` bash
