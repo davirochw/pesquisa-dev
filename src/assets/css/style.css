@@ -1,0 +1,310 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    color: #333;
+    background-color: #ededed;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container h1 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+input[type=text] {
+    padding: 0.75rem 1rem;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid #767676;
+    border-radius: 2px;
+    margin: 0.5rem 0;
+    outline: none;
+    box-sizing: border-box;
+    transition: 300ms;
+  }
+  
+input[type=text]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+
+input[type=radio] {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: 18px 0.3rem 0 0;
+    background-color: #0075FF;
+    border: 1px;
+    cursor: pointer;
+}
+
+input[type=checkbox] {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    margin: 18px 0.3rem 0 0;
+    background-color: #0075FF;
+}
+
+.cabecalho {
+    display: grid;
+    column-gap: 1.875rem;
+    grid-template-columns: auto 300px;
+    margin-bottom: 1.25rem;
+}
+
+label {
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.filtros label {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.filtros {
+    display: grid;
+    grid-template-columns: 120px 180px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.linguagens {
+    display: grid;
+    align-items: center;
+}
+
+.buscarLinguagens input {
+    display: inline-block;
+}
+
+.opcao {
+    display: block;
+}
+
+.container {
+    padding: 0.625rem 1.5rem;
+    background-color: #fff;
+}
+
+/* card */
+.listagem {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(339.25px, 1fr));
+    grid-gap: 1.5rem;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 120px 20%;
+    height: 114px;
+    background-color: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+}
+
+.informacoes {
+    padding: 0.625rem 1.5rem;
+}
+
+.resultados {
+    font-weight: 700;
+}
+
+.info {
+    display: grid;
+    margin: 17.5px 15%;
+}
+
+.user-image{
+    border-radius: 0.5rem 0 0 0.5rem;
+    width: 120px;
+    height: 114px;
+}
+
+.languages {
+    margin: 0 11px 0 0;
+    width: 21px;
+    height: 21px;
+}
+
+.name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.email {
+    font-weight: 400;
+    font-size: 0.75rem;
+    color: #7B7B7B;
+}
+
+.age {
+    font-weight: 400;
+    color:#7B7B7B;
+}
+
+/* modal */
+.image-modal {
+    width: 128px;
+    height: 128px;
+    border-radius: 2px;
+    background-color: #fff;
+    margin: 0.5rem;
+}
+
+.modal {
+    display: grid;
+    grid-template-columns: 140px 69% 5%;
+    justify-content: space-around;
+    padding: 6px;
+}
+
+.nameModal {
+    font-size:24px;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 6px;
+}
+
+.info-modal {
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.info-modal div {
+    margin-bottom: 8px;
+}
+
+.experiencias {
+    display: flex;
+    align-self: center;
+} 
+
+.exp {
+    font-weight: 600;
+    font-size:14px;
+}
+
+.titulos {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.modal div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.close {
+    border: none;
+    background: #fff;
+    width: 32px;
+    height:30px;
+    font-size:23px;
+    opacity: 0.3;
+    right: 4%;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    content: ' ';
+    height: 16px;
+    width: 2px;
+    background-color: #777777;
+    right: 4%;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}
+
+/* mediaqueries */
+
+/* Smartphone Portrait */
+@media (max-width: 575px) {
+
+    .vm--modal {
+        left: 0 !important;
+        height: 425px !important;
+        width: 90% !important;
+        margin: 5% !important;
+        top: 100px !important;
+    }
+
+    .image-modal {
+        width: 128px;
+        height: 200px;
+        border-radius: 2px;
+        background-color: #fff;
+        margin: 0.5rem;
+    }
+    
+    .modal {
+        display: block;
+        padding: 6px;
+    }
+    
+    .nameModal {
+        padding: 10px;
+        margin-bottom: 6px;
+    }
+    
+    .info-modal {
+        padding-left: 10px;
+        margin-bottom: 8px;
+    }
+    
+    .info-modal div {
+        margin-bottom: 8px;
+    }
+    
+    .experiencias {
+        display: flex;
+        align-self: center;
+    } 
+}
+
+/* Smartphone Landscape / Tablet Portrait */
+@media (max-width: 991px){
+
+    .cabecalho {
+          display: flex;
+          flex-direction: column;
+      }
+  
+      input[type=text] {
+          margin: 0.5rem 0 24px 0;
+      }
+  }
+
+/* Tablet Landscape */
+@media (max-width: 1279px) {
+
+}
+
+/* Desktop */
+@media (min-width: 1280px) {
+
+}
+
+/* Large Desktop / TV */
+@media (min-width: 1600px) {
+
+}
